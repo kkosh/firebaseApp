@@ -1,3 +1,3 @@
 # firebaseApp
 
-Javascript application using firebase as a backend database
+Login application using javascript and firebase as a backend database
