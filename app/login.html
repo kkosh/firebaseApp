@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <strong>Login application using Firebase + Javascript + CSS : </strong>
+    <div>
+
+    <br/>
+
+    <label for="txtUsername">Username:</label>
+    <input id="txtUsername" type="text">
+
+    <label for="pwd">Password:</label>
+    <input id="pwd" type="password">
+
+    <label for="txtFirstname">Firstname:</label>
+    <input id="txtFirstname" type="text">
+
+    <label for="txtLastname">Lastname:</label>
+    <input id="txtLastname" type="text">
+
+    <label for="txtEmail">Email:</label>
+    <input id="txtEmail" type="text">
+
+    <button type="submit" id="btnSub">Submit</button>
+
+    </div>
+  </div>
+<br/>
+<br/>
+
+<table id="output" class= "table"></table>
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDj3N3mSPJ8mXREwzog5BDkxfMbbp_Ut-I",
+    authDomain: "kkosh-24a4f.firebaseapp.com",
+    databaseURL: "https://kkosh-24a4f.firebaseio.com",
+    projectId: "kkosh-24a4f",
+    storageBucket: "kkosh-24a4f.appspot.com",
+    messagingSenderId: "567284195984"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="login.js"></script>
+</html>

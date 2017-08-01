@@ -1,0 +1,50 @@
+
+body {
+  font-family: "Open Sans";
+  font-size: 20px;
+}
+
+div {
+  padding: 20px;
+}
+
+div div {
+	width: 70%;
+  margin-left: 493px;
+}
+
+label,
+input,
+button {
+  display: block;
+  width: 30%;
+}
+
+strong {
+  margin-left: 420px;
+}
+
+input {
+  height: 25px;
+  width: 30%;
+  padding: 0 6px;
+}
+
+button {
+  height: 30px;
+  background: blue;
+  color: #fff;
+  margin-top: 10px;
+}
+
+span {
+	color : red
+}
+
+table,tr,th,td {
+    text-align: center;
+    border: 1px solid black;
+    font-size: 110%;
+    width: 600px;
+    margin-left: 370px;
+}
